@@ -8,10 +8,7 @@ def second_challenge
 
   #code your solution here!
 value_array = []
-groceries.values.each do |item|
-  item.each{|item| item << value_array}
-end
-
+groceries.values.each{ |item| value_array.concat(item)}
 
 
 end
